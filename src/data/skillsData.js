@@ -1,12 +1,20 @@
  export const skillsData = [
     'HTML',
-    'Fastify',
-    'Blender',
+    'CSS',
+    'Bootstrap',
     'Figma',
     'Javascript',
-    'CSS',
     'React',
-    'Django',
+    'Next JS',
+    'Python',
+    'MySQL',
+    'Node JS',
+    'MongoDB',
+    'Docker',
+    'Java',
+    'GIt',
+    'Express',
+    'Tailwind',
 ]
 
 // Choose your skills from below. Make sure it's in the same format and spelled correctly.
@@ -69,7 +77,7 @@
     Ubuntu
     Bootstrap
     MongoDB
-    Tailwind
+    c
     ViteJS
     VuetifyJS
     MySQL

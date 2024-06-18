@@ -1,58 +1,59 @@
-import one from '../assets/svg/projects/one.svg'
-import two from '../assets/svg/projects/two.svg'
-import three from '../assets/svg/projects/three.svg'
+// import one from '../assets/svg/projects/one.svg'
+import one from '../assets/svg/projects/one.jpeg'
+// import two from '../assets/svg/projects/two.svg'
+// import three from '../assets/svg/projects/three.svg'
 import four from '../assets/svg/projects/four.svg'
-import five from '../assets/svg/projects/five.svg'
+// import five from '../assets/svg/projects/five.svg'
 import six from '../assets/svg/projects/six.svg'
 import seven from '../assets/svg/projects/seven.svg'
-import eight from '../assets/svg/projects/eight.svg'
+// import eight from '../assets/svg/projects/eight.svg'
 
 
 export const projectsData = [
     {
         id: 1,
-        projectName: 'Employee Management',
-        projectDesc: 'This project aims to build an employee management system that consolidates all information of a company',
-        tags: ['React', 'CSS', 'Material Ui'],
-        code: 'https://github.com/hhhrrrttt222111/developer-portfolio',
-        demo: 'https://github.com/hhhrrrttt222111/developer-portfolio',
-        image: one
+        projectName: 'Workify',
+        projectDesc: 'Developed JobLinker, a job search platform using React. Integrated secure JWT authentication, local storage for login persistence, and REST API for smooth user experience and secure data handling',
+        tags: ["React JS", "JS", "CSS", "Bootstrap", "Routing", "REST API Calls", "Local Storage", "JWT Token", "Authorization", "Authentication"],
+        code: 'https://dharanijobbyapp.ccbp.tech/',
+        demo: 'https://github.com/dharanicb/Jobby-App.git',
+        image: "https://assets.ccbp.in/frontend/content/react-js/jobby-app-home-lg-output.png"
     },
     {
         id: 2,
-        projectName: 'Railway Tracking',
-        projectDesc: 'This project is a railway tracking system that allows users to obtain relevant information about train timing.',
-        tags: ['Django', 'Tailwind CSS'],
-        code: 'https://github.com/hhhrrrttt222111/developer-portfolio',
-        demo: 'https://github.com/hhhrrrttt222111/developer-portfolio',
-        image: two
+        projectName: 'Delishor',
+        projectDesc: 'Developed a Swiggy/Zomato-like food ordering system with React, enabling secure orders, detailed menus, and smooth navigation with React Router and APIs',
+        tags: ["HTML", "CSS", "JavaScript","React JS", "Bootstrap", "React Slick", "Figma", "Client storage"],
+        code: 'https://github.com/dharanicb/TASTY-KITCHENS-SWIGGY-ZOMATO-CLONE.git',
+        demo: 'https://dharanitastyapp.ccbp.tech',
+        image: one
     },
     {
         id: 3,
-        projectName: 'Weather App',
-        projectDesc: 'Weather forecast systems and applications predict weather conditions based on multiple parameters.',
-        tags: ['Django', 'CSS', 'Material Ui'],
-        code: 'https://github.com/hhhrrrttt222111/developer-portfolio',
-        demo: 'https://github.com/hhhrrrttt222111/developer-portfolio',
-        image: three
+        projectName: 'Nxt Watch',
+        projectDesc: 'Developed Nxt Watch, a YouTube clone with login, video lists, search, and video details. Features include theme toggle, JWT authentication, and protected routes.',
+        tags: ["React JS", "JS", "CSS", "Bootstrap", "Routing"," REST API Calls", "Local Storage", "JWT Token", "Authorization", "Authentication"],
+        code: 'https://github.com/dharanicb/Nxt-Watch.git',
+        demo: 'https://dharaninxtwatch.ccbp.tech/',
+        image: "https://assets.ccbp.in/frontend/content/react-js/nxt-watch-saved-videos-dark-theme-lg-output.png"
     },
     {
         id: 4,
-        projectName: 'Android Patient Tracker',
+        projectName: 'My portfolio',
         projectDesc: 'This project involves the development of an Android application for viewing and managing patient data.',
         tags: ['Flutter', 'Firebase'],
-        code: 'https://github.com/hhhrrrttt222111/developer-portfolio',
+        code: 'https://github.com/dharanicb98/dharani_portfolio.git',
         demo: 'https://github.com/hhhrrrttt222111/developer-portfolio',
         image: four
     },
     {
         id: 5,
         projectName: 'E-Commerce App',
-        projectDesc: 'A Simple E-commerce application',
-        tags: ['React Native', 'Firebase'],
-        code: 'https://github.com/hhhrrrttt222111/developer-portfolio',
-        demo: 'https://github.com/hhhrrrttt222111/developer-portfolio',
-        image: five
+        projectDesc: 'Developed Nxt Trendz, an e-commerce clone with user authentication, product listings, search, filters, and sorting using React Router and JWT for secure access.',
+        tags: ["React JS", "JS", "CSS", "Bootstrap", "Routing", "REST API Calls", "Local Storage", "JWT Token", "Authorization", "Authentication"],
+        code: 'https://github.com/dharanicb/Nxt-Trendz-Cart-Features.git',
+        demo: 'https://dharaninxtendz.ccbp.tech/',
+        image: "https://assets.ccbp.in/frontend/content/react-js/nxt-trendz-authentication-lg-login-output.png"
     },
     {
         id: 6,
@@ -74,12 +75,12 @@ export const projectsData = [
     },
     {
         id: 8,
-        projectName: 'Car Pooling System',
-        projectDesc: 'The carpooling system merges multiple people in a car which leads to meet new people, reduces pollution',
-        tags: ['Flutter', 'React'],
-        code: 'https://github.com/hhhrrrttt222111/developer-portfolio',
-        demo: 'https://github.com/hhhrrrttt222111/developer-portfolio',
-        image: eight
+        projectName: 'My CCBP Journey',
+        projectDesc: 'Developed a responsive portfolio web app with React, showcasing about, education, projects, skills, and contact info using React components and Bootstrap',
+        tags: ["CSS", "Bootstrap","React JS"],
+        code: 'https://github.com/dharanicb/CCBP-Timeline.git',
+        demo: 'https://dharaniccbptime.ccbp.tech/',
+        image: "https://assets.ccbp.in/frontend/content/react-js/ccbp-timeline-lg-output.png"
     },
 ]
 
