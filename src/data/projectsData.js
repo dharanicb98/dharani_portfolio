@@ -1,10 +1,11 @@
 // import one from '../assets/svg/projects/one.svg'
 import one from '../assets/svg/projects/one.jpeg'
+import two from '../assets/svg/projects/two.jpeg'
 // import two from '../assets/svg/projects/two.svg'
 // import three from '../assets/svg/projects/three.svg'
 import four from '../assets/svg/projects/four.svg'
 // import five from '../assets/svg/projects/five.svg'
-import six from '../assets/svg/projects/six.svg'
+// import six from '../assets/svg/projects/six.svg'
 import seven from '../assets/svg/projects/seven.svg'
 // import eight from '../assets/svg/projects/eight.svg'
 
@@ -40,10 +41,10 @@ export const projectsData = [
     {
         id: 4,
         projectName: 'My portfolio',
-        projectDesc: 'This project involves the development of an Android application for viewing and managing patient data.',
-        tags: ['Flutter', 'Firebase'],
+        projectDesc: ' A personal portfolio website built with React and Material-UI to showcase my projects, skills, and experiences.',
+        tags: ['React', 'Material-UI' , "Portfolio"],
         code: 'https://github.com/dharanicb98/dharani_portfolio.git',
-        demo: 'https://github.com/hhhrrrttt222111/developer-portfolio',
+        demo: 'https://dharaniportfolio.netlify.app/',
         image: four
     },
     {
@@ -57,20 +58,20 @@ export const projectsData = [
     },
     {
         id: 6,
-        projectName: 'Uber Lite',
-        projectDesc: 'Uber clone',
-        tags: ['Flutter'],
-        code: 'https://github.com/hhhrrrttt222111/developer-portfolio',
-        demo: 'https://github.com/hhhrrrttt222111/developer-portfolio',
-        image: six
+        projectName: 'Movie App',
+        projectDesc: 'Implemented a responsive OTT platform app similar to Netflix/Amazon Clone with features for popular, trending, and top-rated movies, including search and detailed views',
+        tags: ["HTML", "CSS", "JavaScript", "React JS", "Tailwind CSS", "client storage"],
+        code: 'https://github.com/dharanicb98/Movie_list_work_india.git',
+        demo: 'https://sp37q8.csb.app/',
+        image: two
     },
     {
         id: 7,
         projectName: 'Stock Market App',
         projectDesc: 'A simple stock market API app',
         tags: ['React', 'Redux', 'Bootstrap'],
-        code: 'https://github.com/hhhrrrttt222111/developer-portfolio',
-        demo: 'https://github.com/hhhrrrttt222111/developer-portfolio',
+        code: 'https://github.com/dharanicb',
+        demo: 'https://github.com/dharanicb',
         image: seven
     },
     {
