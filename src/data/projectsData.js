@@ -44,7 +44,7 @@ export const projectsData = [
         projectDesc: ' A personal portfolio website built with React and Material-UI to showcase my projects, skills, and experiences.',
         tags: ['React', 'Material-UI' , "Portfolio"],
         code: 'https://github.com/dharanicb98/dharani_portfolio.git',
-        demo: 'https://dharaniportfolio.netlify.app/',
+        demo: 'https://dharanicbportfolio.netlify.app/',
         image: four
     },
     {
